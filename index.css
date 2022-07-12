@@ -1,0 +1,66 @@
+
+@font-face {
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-family: "Cursed Timer ULiL";
+}
+
+body {
+    width: 575px;
+    height: 385px;
+    text-align: center;
+    margin: 50px auto;
+    font-family: 'Cursed Timer ULiL';
+}
+.scoreboard {
+     width: 575px;
+     height: 385px;
+     background: #1B244A;
+     margin: 0px auto;
+     border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+h3 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    color: #EEEEEE;
+    text-align: center;
+    margin: 30px 0px 15px 0px;
+}
+.point-text {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    color: #F94F6D;
+    background: black;
+}
+.add-points-btn {
+    width: 45PX;
+    height: 45px;
+    margin: 20px 3px;
+    border: 1px solid #9AABD8; 
+    color: #9AABD8;
+    border-radius: 5px;
+    background: inherit;
+    font-family: 'Cursed Timer ULiL';
+   
+}
+    .new-game-btn {
+    display: inline-block;
+    margin: 0px;
+    padding: 2px 10px;
+    border-radius: 5px;  
+    color: #ffff;
+    text-shadow: 0px 0px 5px black;
+    background: red;
+}
